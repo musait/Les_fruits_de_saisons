@@ -1,18 +1,23 @@
-// * {
-// background-color: rgba(0,0,0,0.1);
-// }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
 .card {
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
-    float: left;
     margin-left: 60px;
     margin-top: 20px;
     width: 400px;
     height: 400px;
     flex-direction: column;
+
 }
+
 /* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
