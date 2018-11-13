@@ -1,10 +1,11 @@
 .navbar {
   display: flex;
   overflow: hidden;
-  background-color: #a1c45a;
+  background-color: #f9f8ed;
   font-family: Arial;
   justify-content: space-between;
   align-items: center;
+
 }
 .navbar_logo {
   margin: 20px;
@@ -12,12 +13,14 @@
 }
 
 .text_navbar {
+  display: flex;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-variant: small-caps;
-
+  color: #6a9c78;
+  letter-spacing: 4px;
+  justify-content: center;
 }
-
 
 .dropdown {
   float: right;
@@ -35,7 +38,6 @@
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
   margin: 0;
 }
 
@@ -51,6 +53,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -61,6 +64,7 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .dropdown-content a:hover {

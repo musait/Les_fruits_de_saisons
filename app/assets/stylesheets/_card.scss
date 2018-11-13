@@ -1,9 +1,7 @@
 .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 4fr);
-    grid-auto-rows: auto;
-    grid-gap: 1rem;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card {
@@ -13,8 +11,8 @@
     border-radius: 20px 20px 0 0; /* 5px rounded corners */
     margin-left: 60px;
     margin-top: 20px;
-    width: 400px;
-    height: 400px;
+    // width: 400px;
+    // height: 400px;
     flex-direction: column;
 
 }
