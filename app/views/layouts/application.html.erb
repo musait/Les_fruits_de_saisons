@@ -7,15 +7,23 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
     <meta charset="UTF-8">
   </head>
 
   <body>
+
     <header>
       <%= render "layouts/header" %>
     </header>
   <main>
+    <!-- <div class="">
+      <%= render "layouts/tabs" %>
+    </div> -->
+    <div class="">
       <%= render "layouts/main" %>
+    </div>
   </main>
 
   <footer>

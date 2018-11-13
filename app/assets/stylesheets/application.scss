@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   margin: 0;
+   padding: 0;
+   // background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  // url("http://image.noelshack.com/fichiers/2018/46/2/1542119786-fond.jpeg");
+ }

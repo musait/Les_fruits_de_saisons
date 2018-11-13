@@ -1,0 +1,44 @@
+// * {
+// background-color: rgba(0,0,0,0.1);
+// }
+
+.tabs
+{
+	position: relative;
+	clear: both;
+}
+
+.tabs .tab
+{
+	float: left;
+}
+
+.tabs .tab .content
+{
+	position: absolute;
+	background-color: white;
+	left: 0px;
+	width: 100%;
+	border: 1px #000 solid;
+}
+
+.checkboxtab
+{
+	display: none;
+}
+
+.tab label
+{
+	margin-right: 10px;
+}
+
+.checkboxtab:checked ~ label
+{
+	color: #ab70ff;
+	border: 1px #000 solid;
+}
+
+.checkboxtab:checked ~ .content
+{
+	z-index: 1;
+}
